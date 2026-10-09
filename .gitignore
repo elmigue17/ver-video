@@ -1,0 +1,20 @@
+# Llaves: nunca se suben
+.env
+.env.*
+!.env.example
+
+# Lo que deja el script al ver un video
+/ver-video/
+_tmp/
+*.mp4
+*.webm
+*.mkv
+*.m4a
+hoja_*.jpg
+momentos_*.jpg
+referencia.html
+bloques.json
+
+# Python
+__pycache__/
+*.pyc
